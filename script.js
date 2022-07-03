@@ -13,6 +13,7 @@ function ajaxfn(){
            }
            out+="</table>";
            document.getElementById("demo").innerHTML=out;
+           document.getElementById("heading").innerHTML="<h1>Grocery Shopping List</h1>";
            }
 
     };
