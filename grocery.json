@@ -1,0 +1,84 @@
+{
+    "grocery":[
+        {
+            "No":1,
+            "Name":"orange",
+            "Quantity":1,
+            "Unit":"Kg",
+            "Department":"Fruits & Vegetables",
+            "Notes":"fresh"
+        },
+        {
+            "No":2,
+            "Name":"apple",
+            "Quantity":1,
+            "Unit":"Kg",
+            "Department":"Fruits & Vegetables",
+            "Notes":"fresh"
+        },
+        {
+            "No":3,
+            "Name":"milk",
+            "Quantity":500,
+            "Unit":"ml",
+            "Department":"Dairy",
+            "Notes":"Milma"
+        },
+        {
+            "No":4,
+            "Name":"Butter",
+            "Quantity":150,
+            "Unit":"g",
+            "Department":"Dairy",
+            "Notes":"Milma"
+        },
+        {
+            "No":5,
+            "Name":"Sugar",
+            "Quantity":2,
+            "Unit":"Kg",
+            "Department":"Daily items",
+            "Notes":"Regular"
+        },
+        {
+            "No":6,
+            "Name":"Flour",
+            "Quantity":5,
+            "Unit":"Kg",
+            "Department":"Daily items",
+            "Notes":"Elite"
+        },
+        {
+            "No":7,
+            "Name":"grapes",
+            "Quantity":2,
+            "Unit":"Kg",
+            "Department":"Fruits & Vegetables",
+            "Notes":"fresh"
+        },
+        {
+            "No":8,
+            "Name":"Tomatoes",
+            "Quantity":3,
+            "Unit":"Kg",
+            "Department":"Fruits & Vegetables",
+            "Notes":"fresh"
+        },
+        {
+            "No":9,
+            "Name":"Watermelon",
+            "Quantity":1,
+            "Unit":"Kg",
+            "Department":"Fruits & Vegetables",
+            "Notes":"fresh"
+        },
+        {
+            "No":10,
+            "Name":"Ice Cream",
+            "Quantity":500,
+            "Unit":"ml",
+            "Department":"Dairy",
+            "Notes":"Amul"
+        }
+    ]
+}
