@@ -6,8 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery</title>
     <style>
+
+      #demo{
+        margin-left: auto;
+  margin-right: auto;
+        width: 70%;
+      }
+      #button1{display:inline-block;} 
+
+      #select1{
+        display:inline-block;
+        margin-right:10px;
+      } 
+      .mysection{
+        margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-bottom: 20px;
+        /* position: relative;
+ left: 50%; */
+      }
         body{
             background-image: url("back.jpg");
+            
         }
         h1{
          
@@ -19,14 +40,10 @@
             font-weight: lighter;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-        button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  color: black;
+         button {
+          background-color: black;
+  color: white;
+
   font-size: 16px;
 
   padding: 16px 30px;
@@ -34,17 +51,28 @@
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+} 
+select{
+  background-color: #ffffff;
+  color: black;
+  font-size: 16px;
+
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 
-button {
+ button {
+  
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-button:hover {
-    background-color: black;
-  color: white;
-}
+ 
 table, td, th {  
   border: 1px solid rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -62,8 +90,8 @@ th, td {
   padding: 8px;
 }
 
-tr{background-color: #ffffffe7}
-tr:nth-child(even){background-color: #ffffff8c}
+tr{background-color: #ffffff}
+tr:nth-child(even){background-color: #ffffff9d}
 th:nth-child(4){text-transform: none;}
 tr:nth-child(1){
   background-color: #000000;
@@ -75,10 +103,16 @@ tr:nth-child(1){
 
 <body>
     <h1 id="heading">Grocery</h1>
+    <div class="mysection">
+    <div id="select1">
     
+    </div> 
+    <button onclick="ajaxfn();" id="button1" >Grocery Shopping List</button>
+  </div>
     <div id="demo">
-        <button onclick="ajaxfn();" >Grocery Shopping List</button>
-        </div>
+       
+    </div>
+ 
     <script src="script.js"></script>
 </body>
 </html>
