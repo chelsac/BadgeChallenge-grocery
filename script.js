@@ -23,6 +23,12 @@
            }
            out +="</select>";
            document.getElementById("select1").innerHTML=out;
+           out="<table> <tr><th>No.</th><th>Name</th><th>Quantity</th><th>Unit</th><th>Department</th><th>Notes</th></tr>";
+           for(let i=0;i<p.length;i++){
+            out +="<tr> <th>" + p[i].No +"</th>" + "<th>" + p[i].Name +"</th>" +"<th>" + p[i].Quantity +"</th>" +"<th>" + p[i].Unit +"</th>" +"<th>" + p[i].Department +"</th>" +"<th>"  + p[i].Notes +"</th>"  +"</tr>";
+           }
+           out+="</table>";
+          document.getElementById("demo").innerHTML=out;
           ;
            }
 
